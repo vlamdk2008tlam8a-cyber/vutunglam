@@ -63,6 +63,9 @@
         </tr>
 </table>
     <h3>III. Sở thích</h3>
-    <p> Chơi thể thao.</p>
+    <p> Mình có những sở thích như đá bóng.</p>
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN7sac4UuIHzRbSfSsDpyGQfj_gfGKwkhNIg&s" alt "Bóng đá">
-<p>Chơi trò chơi</p>
+<p>Chơi những trò chơi như LOL,TFT,Block Blast,... và nhiều trò chơi khác. </p>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvbQ_JTj59J1ZPk2nTJRtbQgy1wUT6UmJNeg&s" alt "Block blast">
+<img src="https://hoanghamobile.com/tin-tuc/wp-content/uploads/2024/08/Lien-Minh.jpg" alt "LMHT" width="300", hieght ="300">
+<p>Và ăn, học, ngủ, nghỉ </p>
