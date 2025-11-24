@@ -17,7 +17,7 @@
       <th>Cấp học </th>
       <th>Năm học </th>
       <th> GVCN </th>
-      <th> Kết q học tập </th>
+      <th> Kết quả học tập </th>
       </tr>
       <tr>
             <td>Mầm non</td>
