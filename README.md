@@ -7,7 +7,7 @@
 <body>
 <h1> Trang web của tôi</h1>
 <h2> I.Tiểu sử </h2>
-<img src="" alt"Ảnh giới thiệu" width="400">
+<img src="vutunglam.jpg" alt"Ảnh giới thiệu" >
 <p> Họ và tên : Vũ Tùng Lâm</p>
 <p>Ngày, tháng, năm sinh : 18/02/2008</p>
 <p>Quê quán: Bắc Ninh </p>
