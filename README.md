@@ -63,3 +63,12 @@
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvbQ_JTj59J1ZPk2nTJRtbQgy1wUT6UmJNeg&s" alt "Block blast">
 <img src="https://hoanghamobile.com/tin-tuc/wp-content/uploads/2024/08/Lien-Minh.jpg" alt "LMHT" width="300", hieght ="300">
 <p>Và ăn, học, ngủ, nghỉ </p>
+ <h2> Lời nhắn</h2>
+<form action="#" method="post">
+    <label for="Họ và tên">Họ và tên:</label>
+    <input type="text" name="Họ và tên" id="Họ và tên" placeholder="Nhập họ và tên"><br>
+    <label>Lời nhắn:</label><br>
+    <textarea name="Lời nhắn" placeholder="Nhập lời nhắn của bạn"></textarea>
+    <input type="submit" value="Gửi"> 
+</form>
+
