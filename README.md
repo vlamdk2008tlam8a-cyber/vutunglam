@@ -63,12 +63,27 @@
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvbQ_JTj59J1ZPk2nTJRtbQgy1wUT6UmJNeg&s" alt "Block blast">
 <img src="https://hoanghamobile.com/tin-tuc/wp-content/uploads/2024/08/Lien-Minh.jpg" alt "LMHT" width="300", hieght ="300">
 <p>Và ăn, học, ngủ, nghỉ </p>
- <h2> Lời nhắn</h2>
-<form action="#" method="post">
-    <label for="Họ và tên">Họ và tên:</label>
-    <input type="text" name="Họ và tên" id="Họ và tên" placeholder="Nhập họ và tên"><br>
-    <label>Lời nhắn:</label><br>
-    <textarea name="Lời nhắn" placeholder="Nhập lời nhắn của bạn"></textarea>
-    <input type="submit" value="Gửi"> 
+<header>
+   <h1>Phiếu góp ý</h1>
+</header>
+<form action="/submit-feedback" method="POST">
+    <h2>1. Thông tin người góp ý</h2>
+    <p>
+        <label for="ho_va_ten">Họ và tên:</label><br>
+        <input type="text" id="ho_va_ten" name="ho_va_ten" size="40">
+    </p>
+    <p>
+        <label for="email">Địa chỉ email:</label><br>
+        <input type="email" id="email" name="email" size="40">
+    </p>
+    <h2>2. Đóng góp ý kiến</h2>
+    <p>
+        <label for="y_kien_dong_gop">Ý kiến đóng góp:</label><br>
+        <textarea id="y_kien_dong_gop" name="y_kien_dong_gop" rows="10" cols="60"></textarea>
+    </p>
+    <fieldset>
+        <legend>Các điều cần bổ sung</legend>
+        <p>Nội dung thêm tại đây...</p>
+    </fieldset>
+    <button type="submit">Gửi</button>
 </form>
-
