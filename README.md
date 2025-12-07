@@ -64,26 +64,44 @@
 <img src="https://hoanghamobile.com/tin-tuc/wp-content/uploads/2024/08/Lien-Minh.jpg" alt "LMHT" width="300", hieght ="300">
 <p>Và ăn, học, ngủ, nghỉ </p>
 <header>
-   <h1>Phiếu góp ý</h1>
-</header>
+        <h1>Đóng góp ý kiến cho trang web của tôi</h1>
+    </header>
 <form action="/submit-feedback" method="POST">
-    <h2>1. Thông tin người góp ý</h2>
+        <h2>1. Thông tin về người góp ý</h2>
+        <p>
+            <label for="ho_va_ten">Họ và tên:</label><br>
+            <input type="text" id="ho_va_ten" name="ho_va_ten" size="40">
+        </p>
+        <p>
+            <label for="email">Địa chỉ email:</label><br>
+            <input type="email" id="email" name="email" size="40">
+        </p>
+        <h2>2. Đóng góp ý kiến</h2>
+        <p>
+            <label for="y_kien_dong_gop">Ý kiến đóng góp:</label><br>
+            <textarea id="y_kien_dong_gop" name="y_kien_dong_gop" rows="10" cols="60"></textarea>
+        </p>
+        </form>
+        <fieldset>
+    <legend>Các điều cần bổ sung</legend>
     <p>
-        <label for="ho_va_ten">Họ và tên:</label><br>
-        <input type="text" id="ho_va_ten" name="ho_va_ten" size="40">
+        <label>
+            <input type="checkbox" name="hinh_thuc" value="hinh_thuc"> Hình thức
+        </label><br>
+        <label>
+            <input type="checkbox" name="noi_dung" value="noi_dung"> Nội dung
+        </label><br>
+        <label>
+            <input type="checkbox" name="giao_dien" value="giao_dien"> Giao diện
+        </label><br>
+      <label>
+            <input type="checkbox" name="cau_truc_trang" value="cau_truc_trang"> Cấu trúc trang
+        </label><br>
+        <label>
+            <input type="checkbox" name="ung_dung_chen_them" value="ung_dung_chen_them"> Những ứng dụng cần chèn thêm
+        </label><br>
     </p>
-    <p>
-        <label for="email">Địa chỉ email:</label><br>
-        <input type="email" id="email" name="email" size="40">
-    </p>
-    <h2>2. Đóng góp ý kiến</h2>
-    <p>
-        <label for="y_kien_dong_gop">Ý kiến đóng góp:</label><br>
-        <textarea id="y_kien_dong_gop" name="y_kien_dong_gop" rows="10" cols="60"></textarea>
-    </p>
-    <fieldset>
-        <legend>Các điều cần bổ sung</legend>
-        <p>Nội dung thêm tại đây...</p>
-    </fieldset>
-    <button type="submit">Gửi</button>
-</form>
+</fieldset>
+<p>
+    <button type="submit">Góp ý</button>
+</p>
