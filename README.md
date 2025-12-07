@@ -63,45 +63,20 @@
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvbQ_JTj59J1ZPk2nTJRtbQgy1wUT6UmJNeg&s" alt "Block blast">
 <img src="https://hoanghamobile.com/tin-tuc/wp-content/uploads/2024/08/Lien-Minh.jpg" alt "LMHT" width="300", hieght ="300">
 <p>Và ăn, học, ngủ, nghỉ </p>
-<header>
         <h1>Đóng góp ý kiến cho trang web của tôi</h1>
-    </header>
-<form action="/submit-feedback" method="POST">
-        <h2>1. Thông tin về người góp ý</h2>
-        <p>
-            <label for="ho_va_ten">Họ và tên:</label><br>
-            <input type="text" id="ho_va_ten" name="ho_va_ten" size="40">
-        </p>
-        <p>
-            <label for="email">Địa chỉ email:</label><br>
-            <input type="email" id="email" name="email" size="40">
-        </p>
-        <h2>2. Đóng góp ý kiến</h2>
-        <p>
-            <label for="y_kien_dong_gop">Ý kiến đóng góp:</label><br>
-            <textarea id="y_kien_dong_gop" name="y_kien_dong_gop" rows="10" cols="60"></textarea>
-        </p>
-        </form>
-        <fieldset>
-    <legend>Các điều cần bổ sung</legend>
-    <p>
-        <label>
-            <input type="checkbox" name="hinh_thuc" value="hinh_thuc"> Hình thức
-        </label><br>
-        <label>
-            <input type="checkbox" name="noi_dung" value="noi_dung"> Nội dung
-        </label><br>
-        <label>
-            <input type="checkbox" name="giao_dien" value="giao_dien"> Giao diện
-        </label><br>
-      <label>
-            <input type="checkbox" name="cau_truc_trang" value="cau_truc_trang"> Cấu trúc trang
-        </label><br>
-        <label>
-            <input type="checkbox" name="ung_dung_chen_them" value="ung_dung_chen_them"> Những ứng dụng cần chèn thêm
-        </label><br>
-    </p>
-</fieldset>
-<p>
-    <button type="submit">Góp ý</button>
-</p>
+<form>
+<h2> Thông tin người đóng góp</h2>
+<label>Họ và tên:<input type="text" name="ho_va_ten"></label><br>
+ <label>Địa chỉ email:<input type="text" name="TxTEmail"></label><br>
+ <h3>Đóng góp ý kiến</h3>
+ <label>Đóng góp ý kiến:
+  <textarea name="Comment" rows="6" cols="40"></textarea>
+ </label><br><br>
+ <label>Những điều cần bổ sung:</label><br>
+ <input type="checkbox" name="Noidung"> Nội dung<br>
+ <input type="checkbox" name="Hinhthuc"> Hình thức<br>
+  <input type="checkbox" name="Nhungdieucanbosungvalamtothon">Những điều cần bổ sung và làm tốt hơn <br>
+ <input type="submit" name="cmd"value="Góp ý">
+</form>
+</body>
+</html>
