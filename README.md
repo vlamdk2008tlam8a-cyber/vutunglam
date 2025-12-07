@@ -66,17 +66,17 @@
         <h1>Đóng góp ý kiến cho trang web của tôi</h1>
 <form>
 <h2> Thông tin người đóng góp</h2>
-<label>Họ và tên:<input type="text" name="ho_va_ten"></label><br>
- <label>Địa chỉ email:<input type="text" name="TxTEmail"></label><br>
+<label>Họ và tên:<input type="text"name="ho_va_ten"></label><br>
+ <label>Địa chỉ email:<input type="text"name="TxTEmail"></label><br>
  <h3>Đóng góp ý kiến</h3>
  <label>Đóng góp ý kiến:
   <textarea name="Comment" rows="6" cols="40"></textarea>
  </label><br><br>
  <label>Những điều cần bổ sung:</label><br>
- <input type="checkbox" name="Noidung"> Nội dung<br>
- <input type="checkbox" name="Hinhthuc"> Hình thức<br>
-  <input type="checkbox" name="Nhungdieucanbosungvalamtothon">Những điều cần bổ sung và làm tốt hơn <br>
- <input type="submit" name="cmd"value="Góp ý">
+ <input type="checkbox"name="Noidung"> Nội dung<br>
+ <input type="checkbox"name="Hinhthuc"> Hình thức<br>
+  <input type="checkbox"name="Nhungdieucanbosungvalamtothon">Những điều cần bổ sung và làm tốt hơn <br>
+ <input type="submit"name="cmd"value="Góp ý">
 </form>
 </body>
 </html>
